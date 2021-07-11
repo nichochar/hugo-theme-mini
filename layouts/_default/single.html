@@ -37,6 +37,12 @@
         </div>
     {{ end}}
     
+    {{ if .Params.HNLink }}
+      <div class="tip">
+        <br>
+        <span>Discuss on <a href="{{ .Params.HNLink }}">hacker news</a>
+      </div>
+    {{ end }}
     {{ partial "comment.html" . }}
 
 </section>
