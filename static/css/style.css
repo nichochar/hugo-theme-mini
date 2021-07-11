@@ -108,7 +108,7 @@ h4:hover a {
   max-width: 100%;
   overflow-x: auto;
 }
-code {
+p code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
   font-size: inherit;
   background-color: rgba(0, 0, 0, 0.06);
