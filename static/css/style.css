@@ -107,6 +107,14 @@ h4:hover a {
 .highlight {
   max-width: 100%;
   overflow-x: auto;
+  padding: 0 2px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 2px 3px rgb(68 68 68 / 30%);
+  border-radius: 4px;
+  line-height: inherit;
+  word-wrap: break-word;
+  text-indent: 0;
+  background-color: rgb(250, 250, 250);
 }
 p code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
@@ -122,14 +130,6 @@ p code {
 pre {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
   font-size: inherit;
-  background-color: rgba(0, 0, 0, 0.06);
-  padding: 0 2px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 1px 2px 3px rgb(68 68 68 / 30%);
-  border-radius: 4px;
-  line-height: inherit;
-  word-wrap: break-word;
-  text-indent: 0;
 }
 
 
