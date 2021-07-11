@@ -80,8 +80,6 @@ h3 {
 p {
   margin-block-start: 1.5em;
   margin-block-end: 1.5em;
-  line-break: anywhere;
-  word-break: normal;
 }
 pre {
   line-break: anywhere;
