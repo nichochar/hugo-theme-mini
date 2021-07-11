@@ -125,7 +125,8 @@ pre {
   background-color: rgba(0, 0, 0, 0.06);
   padding: 0 2px;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 2px 2px;
+  box-shadow: 1px 2px 3px rgb(68 68 68 / 30%);
+  border-radius: 4px;
   line-height: inherit;
   word-wrap: break-word;
   text-indent: 0;
