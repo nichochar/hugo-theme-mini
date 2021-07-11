@@ -12,7 +12,7 @@
        <span class="split">
         {{ partial "svgs/heart.svg" (dict "fill" "#bbbbbb" "width" 15 "height" 15 ) }}
        </span>
-       {{ .Site.Params.Author }}
+       <a href="https:/twitter.com/{{ .Site.Params.twitter }}">{{ .Site.Params.Author }}</a>
     {{ end }}
     </p>
     <p class="powerby">
